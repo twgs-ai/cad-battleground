@@ -137,7 +137,7 @@ st.markdown("Evaluating small-tier LLMs on Engineering CAD Generation. Enter a p
 with st.form("generation_form", border=False):
     col_input, col_settings = st.columns([3, 1])
     with col_input:
-        user_prompt = st.text_area("Describe the CAD part you want to generate:", placeholder="e.g., A hex nut with an M8 internal thread and 15mm outer diameter...")
+        user_prompt = st.text_area("Describe the CAD part you want to generate: (PLEASE MAKE IT SIMPLE AND SPECIFIC or these lightweight models may struggle to generate a renderable model)", placeholder="e.g., A hex nut with an M8 internal thread and 15mm outer diameter...")
     with col_settings:
         st.markdown("<br>", unsafe_allow_html=True) # Adds a little spacing so the button aligns nicely with the text box
         generate_btn = st.form_submit_button("🚀 Generate Models", use_container_width=True, type="primary")
