@@ -1,6 +1,5 @@
 streamlit
-stpyvista==0.1.1
-pyvista==0.42.3
-vtk==9.2.6
+stpyvista
+pyvista
 openai
 google-genai
