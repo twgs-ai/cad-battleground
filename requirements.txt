@@ -1,0 +1,5 @@
+streamlit
+stpyvista==0.1.1
+pyvista==0.42.3
+openai
+google-genai
