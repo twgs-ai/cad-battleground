@@ -1,4 +1,3 @@
 [theme]
 base="dark"
 primaryColor="#f39c12"
-This forces Streamlit to always load in Dark Mode for every user, and even adds a nice custom accent color (orange) to your buttons to make it look even more customized!

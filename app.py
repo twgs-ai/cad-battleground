@@ -12,6 +12,12 @@ from stpyvista import stpyvista
 from openai import OpenAI
 from google import genai
 
+# ==========================================
+# FIX: Start Virtual Display for Cloud Linux
+# ==========================================
+if platform.system() == "Linux":
+    pv.start_xvfb()
+
 # --- Configuration & Setup ---
 st.set_page_config(page_title="The AI CAD Battleground", layout="wide", page_icon="⚙️")
 
